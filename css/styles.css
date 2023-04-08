@@ -1,0 +1,190 @@
+:root {
+    --text-color-main: #434455;
+    --text-color-headers: #2E2F42;
+    --background-color: #Ffffff; 
+    --button-color: #4d5ae5;
+}
+
+/* ---------------DEFAULT SETTINGS -----------------*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color-main);
+    background-color: var(--background-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color: #404bbf;
+}
+/* ---------------/DEFAULT SETTINGS -----------------*/
+
+/* ---------------HEADER -----------------*/
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo1 {
+    color: var(--text-color-headers);
+}
+
+.menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color-headers);
+}
+
+.adr {
+    font-style: normal;
+}
+
+.con {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color-main);
+}
+/* ---------------/HEADER -----------------*/
+
+/* ---------------SECTION ONE -------------*/
+.section-one {
+    background-color: var(--text-color-headers);
+}
+
+.head {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    background-color: var(--text-color-headers);
+    text-align: center;
+    color: var(--background-color);
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--background-color);
+    cursor: pointer;
+    background: var(--button-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.pbtn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    width: 78px;
+    height: 48px;
+    color: var(--button-color);
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.pbtn:hover,
+.pbtn:focus,
+.pbtn:active {
+    color: var(--background-color);
+    background: #404bbf;
+}
+
+/* ---------------/SECTION ONE -------------*/
+
+
+/* ---------------SECTION TWO -------------*/
+
+.descr-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-color-headers);
+}
+
+.descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* ---------------/SECTION TWO -------------*/
+
+/* ---------------SECTION THREE -------------*/
+
+.section-three-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--text-color-headers);
+}
+/* ---------------/SECTION THREE -------------*/
+
+/* ---------------SECTION FOUR -------------*/
+
+.section-four-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #F4F4FD;
+}
+
+.team-member {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-color-headers);
+}
+/* ---------------/SECTION FOUR -------------*/
+
+/* ---------------FOOTER--------------- */
+
+.foot {
+    background-color: var(--text-color-headers);
+}
+
+.footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+}
+
+
+/* ---------------/FOOTER--------------- */
