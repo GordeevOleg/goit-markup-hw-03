@@ -7,6 +7,22 @@
 
 /* ---------------DEFAULT SETTINGS -----------------*/
 
+.container {
+    width: 1158px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+    margin: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color-main);
@@ -15,7 +31,16 @@ body {
 
 .list {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 
 .link {
     text-decoration: none;
